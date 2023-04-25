@@ -10,11 +10,11 @@ const Root = lazy(() => import('@/layouts/Root'))
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Home />,
+    element: <Root />,
     children: [
       {
         path: '',
-        element: <Root />,
+        element: <Home />,
         loader: async () => {
           console.log('loader')
           return 'loader返回数据'

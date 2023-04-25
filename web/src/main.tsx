@@ -6,11 +6,14 @@ import { RouterProvider } from 'react-router-dom'
 import router from '@/router'
 import { Provider } from 'react-redux'
 import store from '@/store'
-import './index.css'
+import './i18n'
 import 'uno.css'
 import App from './pages'
-import Loading from './pages/Loading'
+import Loading from './pages/Loading';
 import Footer from './components/footer'
+
+import './index.css'
+
 
 const root = ReactDOM.createRoot(document.querySelector('#root')!)
 
