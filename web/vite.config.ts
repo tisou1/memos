@@ -16,7 +16,7 @@ export default defineConfig({
       '@/': `${path.resolve(__dirname, 'src')}/`,
     },
   },
-  plugins: [react(), Unocss()],
+  plugins: [react()],
   test: {
     environment: 'jsdom',
     include: ['test/**/*.test.{ts,js}'],

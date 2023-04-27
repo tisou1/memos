@@ -7,13 +7,15 @@ import router from '@/router'
 import { Provider } from 'react-redux'
 import store from '@/store'
 import './i18n'
-import 'uno.css'
+// import 'uno.css'
+// 使用tailwindcss
+import './css/global.css'
+import './css/tailwind.css'
 import App from './pages'
-import Loading from './pages/Loading';
+import Loading from './pages/Loading'
 import Footer from './components/footer'
 
 import './index.css'
-
 
 const root = ReactDOM.createRoot(document.querySelector('#root')!)
 
